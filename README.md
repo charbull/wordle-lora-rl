@@ -88,7 +88,7 @@ This project was trained on a Mac M4 Pro with 48 GB of RAM using the `mlx-commun
 ### 1. Setup Environment
 Clone the repository and set up a Python virtual environment.
 ```sh
-git clone https://github.com/charbull/wordle-rl-gemma.git
+git clone https://github.com/charbull/wordle-lora-rl.git
 cd wordle-rl-gemma
 
 python -m venv venv
@@ -189,8 +189,6 @@ These are "soft" penalties to refine the agent's behavior and encourage efficien
 - **`length_penalty_per_token`**: Minor penalty on response length to encourage concise thinking.
 
 ---
-
-
 
 
 ## Results and Analysis
